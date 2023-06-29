@@ -41,7 +41,7 @@
         <form action="{{ route('employees.store') }}" method="POST">
             @csrf
             <div class="row justify-content-center">
-                <div class="p-5 bg-light rounded-3 border col-xl-6">
+                <div class="p-5 bg-info rounded-3 border col-xl-6">
 
                     {{-- SOLVED BY DIKA YGY, NIM: 1204210024 --}}
                     <div class="mb-3 text-center">
