@@ -17,7 +17,10 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
-    @include("layouts.nav")
+    @include('layouts.nav')
     @yield('content')
+    @vite('resources/js/app.js')
+    @include('sweetalert::alert')
+    @stack('scripts')
 </body>
 </html>
